@@ -152,13 +152,41 @@
 
 .block4{
     background-color: #1C2121;
-    height: 700px;
+    height: 750px;
 }
 .o2{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding: 20px;
+}
+.s1{
+    background-color: #181818;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    width: 266px;
+    color: white;
+    gap: 10px;
+    border-radius: 10px;
+}
+.block5{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.block11{
+    display: flex;
+    justify-content: center;
+    gap: 13px   ;
+    padding: 20px;
+}
+.block45{
+    background-color: #252C2C;
+    height: 750px;
+}
+.block43{
+    display: none
 }
 @media (max-width:510px) {
     .d1{
@@ -244,7 +272,7 @@
         height: 50px;
     }
     .block1{
-        height: 1500px;
+        height: 1300px;
     }
     .hh1{
         display: none;
@@ -252,6 +280,80 @@
     .t1{
         font-size: 25px;
     }
+    .block4{
+        width: 100%;
+        flex-direction: column;
+        height: 1500px;
+    }
+        .block43{
+         display: block;
+        width: 100%;
+        flex-direction: column;
+        height: 1500px;
+        background-color: #252C2C;
+    }
+        .block45{
+            display: none;
+        width: 100%;
+        flex-direction: column-reverse;
+        height: 1500px;
+        padding: 0px;
+        margin: auto;
+    }
+    .o2{
+        width: 90%;
+        flex-direction: column-reverse;
+    }
+        .o22{
+        width: 90%;
+        flex-direction: column-reverse;
+    }
+    .o1{
+        width: 99%;
+        font-size: 17px;
+    }
+    
+    .fff2{
+        width: 90%;
+    }
+    .p23{
+            transform: rotate(90deg);
+            margin-top: -70px;
+    }
+    .ff2{
+        flex-direction: column;
+    }
+    .f2{
+        width: 100%;
+    }
+     .f3{
+        width: 100%;
+    }
+    .block5{
+        
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    .s1{
+        width: 90%;
+    }
+    .er2{
+        width: 140px;
+        
+    }
+    .er22{
+        width: 290px;
+        height: 150px;
+    }
+    .block11{
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: auto;
+    }
+
 
 
 
