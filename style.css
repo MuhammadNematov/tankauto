@@ -488,8 +488,8 @@ body{
 }
 
 .map-btn {
-    background: #f5a623;
-    color: white;
+    background: #FF9549;
+    color: rgb(0, 0, 0);
     border: none;
     padding: 12px 25px;
     border-radius: 8px;
@@ -497,7 +497,126 @@ body{
     cursor: pointer;
     white-space: nowrap;
 }
+.disclaimer-section {
+    padding: 20px 40px;
+    font-family: sans-serif;
+    color: #333;
+}
+
+.disclaimer-top {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.disclaimer-text p {
+    font-size: 13px;
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 10px;
+}
+
+.disc-line {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.footer-main-left h3 {
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.official {
+    color: #aaa;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.address {
+    color: #555;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.legal {
+    color: #aaa;
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+.footer-main-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.phone-block h3 {
+    font-size: 20px;
+    text-align: right;
+}
+
+.online {
+    color: #aaa;
+    font-size: 13px;
+}
+
+.btn-orange {
+    background: #FF9549;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.footer-links {
+    display: flex;
+    gap: 20px;
+    color: #555;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-bottom p {
+    color: #aaa;
+    font-size: 13px;
+}
+
+.bottom-links {
+    display: flex;
+    gap: 30px;
+}
+
+.bottom-links a {
+    color: #555;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.bottom-links a:hover { color: black; }
+
 @media (max-width:510px) {
+    body{
+        width: 100%;
+    }
     .d1{
         display: none;
     }
@@ -621,6 +740,11 @@ body{
         width: 99%;
         font-size: 17px;
     }
+     .disclaimer-section { padding: 20px; }
+    .footer-main { flex-direction: column; }
+    .footer-main-right { align-items: flex-start; }
+    .footer-bottom { flex-direction: column; gap: 10px; }
+    .footer-links { flex-direction: column; gap: 8px; }
     
     .fff2{
         width: 90%;
@@ -754,7 +878,7 @@ body{
     .map-img {
         height: 200px;
     }
-    
+
 
 
 
