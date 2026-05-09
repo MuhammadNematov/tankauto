@@ -334,7 +334,7 @@ body{
     background-image: url(./image\ 281.png);
     background-size: cover;
     background-position: center;
-    width: 100%;
+    width: 92%;
     height: 300px;
     display: flex;
     align-items: center;
@@ -396,6 +396,106 @@ body{
     align-items: center;
     gap: 6px;
     cursor: pointer;
+}
+.corp {
+   background-color: #444;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 0px;
+    border-radius: 12px;
+    margin: 20px 0;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.corp-left h2 {
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+
+
+.corp-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.corp-right img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.corp-right h3 {
+    color: white;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.corp-right p {
+    color: #aaa;
+    font-size: 13px;
+    line-height: 1.5;
+}
+.map-section {
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 20px 0;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.map-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.map-info {
+    background: #6055554d;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    gap: 20px;
+}
+
+.map-col small {
+    color: #aaa;
+    font-size: 12px;
+    display: block;
+    margin-bottom: 6px;
+}
+
+.map-col p {
+    color: white;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.online {
+    color: #aaa;
+    font-size: 13px;
+    margin-top: 4px;
+    display: block;
+}
+
+.map-btn {
+    background: #f5a623;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    white-space: nowrap;
 }
 @media (max-width:510px) {
     .d1{
@@ -628,6 +728,33 @@ body{
         width: 100%;
         margin-top: 5px;
     }
+    .corp {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .corp-right {
+        flex-direction: column;
+        text-align: center;
+    }
+    .corp-left button{
+        width: 80%;
+
+    }
+     .map-info {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .map-btn {
+        width: 100%;
+    }
+
+    .map-img {
+        height: 200px;
+    }
+    
 
 
 
